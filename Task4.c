@@ -6,7 +6,7 @@ int main(){
 	
 	printf("Enter UserName: \n");
 	fgets(username, sizeof(username), stdin);
-	// remove newline
+	
     int len = strlen(username);
     if (username[len-1] == '\n')
         {
@@ -21,7 +21,7 @@ int main(){
 	{
 		printf("Enter Password: \n");
 		fgets(password, sizeof(password), stdin);
-		// remove newline
+		
     	int len = strlen(username);
     	if (username[len-1] == '\n')
         	{
@@ -41,3 +41,4 @@ int main(){
 	
 	return 0;
 }
+
